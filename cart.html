@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lady shop </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="img_shop/logoo.jpg" class="logo" alt="" width="80" height="80"></a>
+
+
+        <div>
+            <ul id="navbar">
+                <li><a onclick="window.location.href='index.html'" href="index.html">Home</a></li>
+                <li><a onclick="window.location.href='shopp.html'" href="shopp.html">Shop</a></li>
+                <li><a onclick="window.location.href='blog.html'"  href="blog.html">Blog</a></li>
+                <li><a onclick="window.location.href='about.html'" href="about.html">About us</a></li>
+                <li><a onclick="window.location.href='contact.html'" href="contact.html">Contact</a></li>
+                <li><a onclick="window.location.href='cart.html'" class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a onclick="window.location.href='account.html'" href="account.html"><i class="far fa-solid fa-user"></i></a></li>
+                </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>Shopping Cart</h2>
+        <p>IF You can't Stop thinking about it...BUY it!</p>
+        </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#"></a><i  class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img_shop/new1.jfif" alt=""></td>
+                    <td>Women's Elegant dress</td>
+                    <td>$70</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"></a><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img_shop/sum1.jfif" alt=""></td>
+                    <td>Women's Fashion Pants</td>
+                    <td>$80</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"></a><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img_shop/new2.jfif" alt=""></td>
+                    <td>Women's Elegant dress</td>
+                    <td>$70</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"></a><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img_shop/sum7.jfif" alt=""></td>
+                    <td>Colorful swimsuit</td>
+                    <td>$73</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$73</td>
+                </tr>
+                
+            </tbody>
+
+        </table>
+
+    </section>    
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$293.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$296.00</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+
+        </div>
+
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img_shop/logoo.jpg" alt="" width="80" height="80">
+             <h4>Contact</h4>
+             <p> <strong>Address:</strong> Street Ivan Vazov 3, Sofia, Bulgaria</p>
+             <p> <strong>Phone:</strong> +359897865941/ +359877456921</p>
+             <p> <strong>Working time:</strong> 10:00-19:00, Monday - Saturday</p>
+             <div class="follow">
+                 <h4>Follow us</h4>
+                 <div class="icon">
+                     <i class="fab fa-facebook-f"></i>
+                     <i class="fab fa-twitter"></i>
+                     <i class="fab fa-instagram"></i>
+                     <i class="fab fa-youtube"></i>
+
+                 </div>
+
+             </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a onclick="window.location.href='contact.html'" href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#"> View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="copyright">
+            <p>2022, Lady Shop Sofia, Bulgaria</p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

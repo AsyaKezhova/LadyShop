@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lady shop </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="img_shop/logoo.jpg" class="logo" alt="" width="80" height="80"></a>
+
+
+        <div>
+            <ul id="navbar">
+                <li><a onclick="window.location.href='index.html'" href="index.html">Home</a></li>
+                <li><a onclick="window.location.href='shopp.html'" href="shopp.html">Shop</a></li>
+                <li><a onclick="window.location.href='blog.html'"  href="blog.html">Blog</a></li>
+                <li><a onclick="window.location.href='about.html'" href="about.html">About us</a></li>
+                <li><a onclick="window.location.href='contact.html'"  href="contact.html">Contact</a></li>
+                <li><a onclick="window.location.href='cart.html'"  href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a onclick="window.location.href='account.html'" class="active" href="account.html"><i class="far fa-solid fa-user"></i></a></li>
+                </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>Register Page</h2>
+        <p>If you are a new client, just register here.</p>
+        </section>  
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img_shop/reg.png" alt="" width="620" height="600">
+                </div>
+
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+                 </div>
+          
+                 <form id="LoginForm">
+                     <input type="text" placeholder="Username">
+                     <input type="password" placeholder="Password">
+                     <button type="submit" class="normal">Login</button>
+                     <a href="">Forgot password</a>
+                 </form>
+
+                 <form id="RegForm">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="E-mail">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Address">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="normal">Register</button>
+                </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>    
+
+   
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img_shop/free_ship.jpg" alt="" height="130" width="150">
+            <h6>S H I P P I N G</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img_shop/online-ord.jpg" alt="" height="130" width="150">
+            <h6>O N L I N E - O R D E R</h6>
+        </div>
+        <div class="fe-box">
+             <img src="img_shop/save-m.png" alt="" height="130" width="150">
+             <h6>S A V E - M O N E Y</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img_shop/Ppromo.png" alt="" height="130" width="150">
+            <h6>P R O M O T I O N S</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img_shop/happy-sel.png" alt="" height="130" width="150">
+            <h6>H A P P Y - S E L L</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img_shop/SUPP.png" alt="" height="130" width="150">
+            <h6>24/7 - S U P P O R T</h6>
+        </div>        
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">  
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our lates shop and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail address">
+            <button class="normal">Sign Up</button>
+
+        </div>
+
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img_shop/logoo.jpg" alt="" width="80" height="80">
+             <h4>Contact</h4>
+             <p> <strong>Address:</strong> Street Ivan Vazov 3, Sofia, Bulgaria</p>
+             <p> <strong>Phone:</strong> +359897865941/ +359877456921</p>
+             <p> <strong>Working time:</strong> 10:00-19:00, Monday - Saturday</p>
+             <div class="follow">
+                 <h4>Follow us</h4>
+                 <div class="icon">
+                     <i class="fab fa-facebook-f"></i>
+                     <i class="fab fa-twitter"></i>
+                     <i class="fab fa-instagram"></i>
+                     <i class="fab fa-youtube"></i>
+
+                 </div>
+
+             </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a onclick="window.location.href='about.html'" href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a onclick="window.location.href='contact.html'"  href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a onclick="window.location.href='cart.html'" href="#"> View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="copyright">
+            <p>2022, Lady Shop Sofia, Bulgaria</p>
+        </div>
+
+    </footer>
+
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator = document.getElementById("Indicator");
+
+        function register() {
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+
+        }
+
+        function login() {
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform = "translateX(300px)";
+            Indicator.style.transform = "translateX(0px)";
+        }
+
+    </script>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
